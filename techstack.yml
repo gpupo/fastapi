@@ -1,0 +1,509 @@
+repo_name: gpupo/fastapi
+report_id: ab4774fc4d0de7775cae4427059fa53a
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-07T12:40:28+00:00'
+requested_by: invalid-email-address
+provider: github
+branch: master
+detected_tools_count: 34
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/gpupo/fastapi
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/gpupo/fastapi
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements-tests.txt
+  detection_source: requirements-tests.txt
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2023-06-11 21:38:15.000000000 Z
+- name: Flask
+  description: A microframework for Python based on Werkzeug, Jinja 2 and good intentions
+  website_url: http://flask.pocoo.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1001/default_6d109315b60108628b7cd3e159b84645c31ef0e2.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements-tests.txt
+  detection_source: requirements-tests.txt
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2023-06-11 21:38:15.000000000 Z
+- name: SQLAlchemy
+  description: The Python SQL Toolkit and Object Relational Mapper
+  website_url: http://www.sqlalchemy.org/
+  version: 1.3.18
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1839/q5uAkmy7.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements-tests.txt
+  detection_source: requirements-tests.txt
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2023-06-11 21:38:15.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/.github/actions/comment-docs-preview-in-pr/Dockerfile
+  detection_source: ".github/actions/comment-docs-preview-in-pr/Dockerfile"
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2020-10-25 17:54:36.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/gpupo/fastapi
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/.github/workflows/build-docs.yml
+  detection_source: ".github/workflows/build-docs.yml"
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2023-08-03 15:24:31.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2023-06-11 21:38:15.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements-tests.txt
+  detection_source: requirements-tests.txt
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2023-06-11 21:38:15.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: 7.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements-tests.txt
+  detection_source: requirements-tests.txt
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2023-06-11 21:38:15.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  website_url: https://python-pillow.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements-docs.txt
+  detection_source: requirements-docs.txt
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2023-06-26 14:05:43.000000000 Z
+- name: PyYAML
+  website_url: http://pyyaml.org/wiki/PyYAML
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3730/no-img-open-source.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements-docs.txt
+  detection_source: requirements-docs.txt
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2023-06-11 21:38:15.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/gpupo/fastapi
+  detection_source: Repo Metadata
+- name: mypy
+  description: Developers of mypy, a Python variant with seamless dynamic and static
+    typing
+  website_url: http://mypy-lang.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7350/eaca159133a3901e24ddb407d1235c25_normal.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements-tests.txt
+  detection_source: requirements-tests.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-08-05 08:22:58.000000000 Z
+- name: ujson
+  website_url: http://github.com/esnme/ultrajson
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3728/443744.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements-tests.txt
+  detection_source: requirements-tests.txt
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2023-06-11 21:38:15.000000000 Z
+- name: python-jose
+  description: JOSE implementation in Python
+  package_url: https://pypi.org/project/python-jose
+  version: 3.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20096/default_5297f13e5d732665caff8f16d9bfcd71481f98b6.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements-tests.txt
+  detection_source: requirements-tests.txt
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2023-06-11 21:38:15.000000000 Z
+  vulnerabilities:
+  - name: python-jose algorithm confusion with OpenSSH ECDSA keys
+    cve_id: CVE-2024-33663
+    cve_url: https://github.com/advisories/GHSA-6c5p-j8vq-pqhj
+    detected_date: Apr 27
+    severity: high
+    first_patched:
+  - name: python-jose denial of service via compressed JWE content
+    cve_id: CVE-2024-33664
+    cve_url: https://github.com/advisories/GHSA-cjwg-qfpm-7377
+    detected_date: Apr 27
+    severity: moderate
+    first_patched:
+- name: starlette
+  description: The little ASGI library that shines
+  package_url: https://pypi.org/project/starlette
+  version: 0.27.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20295/default_640b00772a7025571fa2ac02de971e76f9662aa9.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2023-05-16 13:29:40.000000000 Z
+  vulnerabilities:
+  - name: python-multipart vulnerable to Content-Type Header ReDoS
+    cve_id: CVE-2024-24762
+    cve_url: https://github.com/advisories/GHSA-2jv5-9r88-3w3p
+    detected_date: Feb 17
+    severity: high
+    first_patched: 0.36.2
+  - name: 'Duplicate Advisory: Starlette Content-Type Header ReDoS'
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-93gm-qmq6-w238
+    detected_date: Feb 6
+    severity: high
+    first_patched: 0.36.2
+- name: ujson
+  description: Ultra fast JSON encoder and decoder for Python
+  package_url: https://pypi.org/project/ujson
+  version: 4.0.1
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20357/default_1e2908ef2614eb1bb39298a5fc937d8c068f3a2c.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements-tests.txt
+  detection_source: requirements-tests.txt
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2023-06-11 21:38:15.000000000 Z
+  vulnerabilities:
+  - name: Incorrect handling of invalid surrogate pair characters
+    cve_id: CVE-2022-31116
+    cve_url: https://github.com/advisories/GHSA-wpqr-jcpx-745r
+    detected_date: Jul 6
+    severity: high
+    first_patched: 5.4.0
+  - name: UltraJSON vulnerable to Out-of-bounds Write
+    cve_id: CVE-2021-45958
+    cve_url: https://github.com/advisories/GHSA-fh56-85cw-5pq6
+    detected_date: Jan 22
+    severity: moderate
+    first_patched: 5.2.0
+  - name: Potential double free of buffer during string decoding
+    cve_id: CVE-2022-31117
+    cve_url: https://github.com/advisories/GHSA-fm67-cv37-96ff
+    detected_date: Jul 6
+    severity: moderate
+    first_patched: 5.4.0
+- name: black
+  description: The uncompromising code formatter
+  package_url: https://pypi.org/project/black
+  version: 23.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements-tests.txt
+  detection_source: requirements-tests.txt
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2023-06-11 22:46:44.000000000 Z
+  vulnerabilities:
+  - name: Black vulnerable to Regular Expression Denial of Service (ReDoS)
+    cve_id: CVE-2024-21503
+    cve_url: https://github.com/advisories/GHSA-fj7x-q9j7-g6q6
+    detected_date: Mar 21
+    severity: moderate
+    first_patched: 24.3.0
+- name: pydantic
+  description: Data validation and settings management using python 3.6 type hinting
+  package_url: https://pypi.org/project/pydantic
+  version: 1.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2023-08-04 20:57:30.000000000 Z
+  vulnerabilities:
+  - name: Pydantic regular expression denial of service
+    cve_id: CVE-2024-3772
+    cve_url: https://github.com/advisories/GHSA-mr82-8j83-vxmv
+    detected_date: Apr 25
+    severity: moderate
+    first_patched: 1.10.13
+- name: CairoSVG
+  description: A Simple SVG Converter based on Cairo
+  package_url: https://pypi.org/project/CairoSVG
+  license: LGPL-3.0+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements-docs.txt
+  detection_source: requirements-docs.txt
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2023-06-26 14:05:43.000000000 Z
+- name: anyio
+  description: High level compatibility layer for multiple asynchronous event loop
+    implementations
+  package_url: https://pypi.org/project/anyio
+  version: 3.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20757/default_c1e4fc9b7faffe723aa1e18d3dd3049b39849e4d.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements-tests.txt
+  detection_source: requirements-tests.txt
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2023-06-11 21:38:15.000000000 Z
+- name: coverage
+  description: Code coverage measurement for Python
+  package_url: https://pypi.org/project/coverage
+  version: 6.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19904/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements-tests.txt
+  detection_source: requirements-tests.txt
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2023-06-11 21:38:15.000000000 Z
+- name: databases
+  description: Async database support for Python
+  package_url: https://pypi.org/project/databases
+  version: 0.3.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements-tests.txt
+  detection_source: requirements-tests.txt
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2023-06-11 21:38:15.000000000 Z
+- name: email_validator
+  description: A robust email syntax and deliverability validation library for Python
+    2.x/3.x
+  package_url: https://pypi.org/project/email_validator
+  version: 1.1.1
+  license: Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements-tests.txt
+  detection_source: requirements-tests.txt
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2023-07-07 17:12:13.000000000 Z
+- name: httpx
+  description: The next generation HTTP client
+  package_url: https://pypi.org/project/httpx
+  version: 0.23.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20315/default_5f4e928dbcb1c4db4050881fc2e0229785fc931c.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements-tests.txt
+  detection_source: requirements-tests.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-27 01:13:10.000000000 Z
+- name: jieba
+  description: Chinese Words Segmentation Utilities
+  package_url: https://pypi.org/project/jieba
+  version: 0.42.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20154/default_00b4278983e5385b6d5b93c4ffc4ef51d53270e9.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements-docs.txt
+  detection_source: requirements-docs.txt
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2023-06-26 14:05:43.000000000 Z
+- name: mkdocs-material
+  description: A Material Design theme for MkDocs
+  package_url: https://pypi.org/project/mkdocs-material
+  version: 9.1.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements-docs.txt
+  detection_source: requirements-docs.txt
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2023-08-19 13:33:32.000000000 Z
+- name: mypy
+  description: Optional static typing for Python
+  package_url: https://pypi.org/project/mypy
+  version: 1.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20219/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements-tests.txt
+  detection_source: requirements-tests.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-08-05 08:22:58.000000000 Z
+- name: passlib
+  description: Comprehensive password hashing framework supporting over 30 schemes
+  package_url: https://pypi.org/project/passlib
+  version: 1.7.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19992/default_aa5b3e77340c2bb80cd8e6a59cd82909abcdcd63.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements-tests.txt
+  detection_source: requirements-tests.txt
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2023-06-11 21:38:15.000000000 Z
+- name: pre-commit
+  description: A framework for managing and maintaining multi-language pre-commit
+    hooks
+  package_url: https://pypi.org/project/pre-commit
+  version: 2.17.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20560/default_d975dcf643a054134f39226d51d4a5fea9320efe.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-22 17:26:01.000000000 Z
+- name: typing-extensions
+  description: Backported and Experimental Type Hints for Python 3.5+
+  package_url: https://pypi.org/project/typing-extensions
+  version: 4.5.0
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19875/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2023-07-07 17:12:13.000000000 Z
+- name: uvicorn
+  description: The lightning-fast ASGI server
+  package_url: https://pypi.org/project/uvicorn
+  version: 0.12.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20431/default_f824837db22536768ec317b67275fa384fad7d47.png
+  detection_source_url: https://github.com/gpupo/fastapi/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-22 17:43:44.000000000 Z
